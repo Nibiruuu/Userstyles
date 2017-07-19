@@ -1,7 +1,7 @@
 (function($, mw) { 
-    $("#p-personal ul").append('<li id="pt-talk"><a href="/Talk:%E8%AE%A8%E8%AE%BA%E7%89%88">讨论版</a></li>');
-    $("#p-personal ul").append('<li id="pt-recent-changes"><a href="/Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9">最近更改</a></li>');
-    $("#p-personal ul").append('<li id="pt-special"><a href="/Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2">特殊页面</a></li>');
+    $("#p-personal ul").append('<li id="pt-talk"><a href="/Talk:讨论版">讨论版</a></li>');
+    $("#p-personal ul").append('<li id="pt-recent-changes"><a href="/Special:最近更改">最近更改</a></li>');
+    $("#p-personal ul").append('<li id="pt-special"><a href="/Special:特殊页面">特殊页面</a></li>');
     
     var str = window.location.href;
     str = str.substring(str.indexOf(".org/") + 5);
