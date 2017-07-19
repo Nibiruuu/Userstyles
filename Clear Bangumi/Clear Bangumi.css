@@ -1,0 +1,8 @@
+@-moz-document domain(bangumi.tv)
+{
+/*选中项*/
+::selection {
+    background: #F09199;
+    text-shadow: none;
+}
+}
