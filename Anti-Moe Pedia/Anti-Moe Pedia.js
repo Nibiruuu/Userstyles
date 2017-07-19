@@ -12,4 +12,14 @@
     topTitle = topTitle.innerText;
     topTitle = topTitle.substring(0, topTitle.lastIndexOf("["));
     $("div#p-personal").prepend('<span class="topTitle">'+topTitle+'</span>');
+    
+    $(function() {
+    $("div").each() {
+        if($(this).css("display") == "none") {
+            $(this).css({"display": "inline-block", "background": "rgba(255, 255, 0, 0.3)"});
+        } else if($(this).css("visibility") == "hidden") {
+            $(this).css({"visibility": "visible", "background": "rgba(255, 255, 0, 0.3)"});
+        }
+    };
+    });
 })(jQuery, mediaWiki);
