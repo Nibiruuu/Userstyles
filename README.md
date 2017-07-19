@@ -5,6 +5,6 @@ Projects on https://userstyles.org.
 - Applies to: https://zh.moegirl.org
 ### Clear Bangumi
 - url: none
-- Applies to: https://bangumi.tv
+- Applies to: http://bangumi.tv
 
 Base on Chrome 59.0.3071.115
