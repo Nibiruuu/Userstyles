@@ -1,7 +1,6 @@
 ::selection {
     background: #D7D4F0;
 }
-
 ::-webkit-scrollbar-thumb {
     background-color: #03A9F4;
     height: 50px;
@@ -23,7 +22,6 @@
     background-color: #FFF;
     -webkit-border-radius: 0;
 }
-
 .user-home img,
 .ui-icon icon-vip,
 #tb_vip_li,
@@ -31,5 +29,5 @@
 #tb_dress_li,
 .user-vip-info,
 .mod-side-nav mod-side-nav-recently-used {
-    display: none;   
+    display: none !important;
 }
