@@ -2,9 +2,6 @@
  
 .heimu,
 .heimu a {
-    background-color: transparent !important;
-    color: #252525 !important;
-    border: none !important;
     filter: blur(3px);
     transition: filter 100ms 200ms;
 }
@@ -24,7 +21,6 @@ div#p-personal {
     position: fixed;
     top: 0;
     right: 0;
-    padding: 12px !important;
     background: #fff;
     box-shadow: 0 1px 3px 0 rgba(0, 34, 77, .05);
     border-bottom: 1px solid rgba(30, 35, 42, .06);
